@@ -1,6 +1,6 @@
 package AccesoDatos.Entities;
 
-public class Documento {
+public class Documento implements Comparable{
     double relevancia;
     String nombre;
 
@@ -15,5 +15,21 @@ public class Documento {
 
     public String getNombre() {
         return nombre;
+    }
+
+    @Override
+    public int compareTo(Object o) {
+        Documento doc = (Documento) o;
+        if(doc.getRelevancia() > this.getRelevancia()){
+            return -1;
+        }
+        else{
+            if(doc.getRelevancia() < this.getRelevancia()){
+                return 1;
+            }
+            else{
+                return 0;
+            }
+        }
     }
 }

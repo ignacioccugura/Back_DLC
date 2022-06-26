@@ -10,33 +10,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="93898579-f1b7-4490-bb3d-5e1b98918453" name="Changes" comment="gitTeOdioDia3">
-      <change afterPath="$PROJECT_DIR$/Back/src/main/java/Logica/Indexador.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Back/src/main/java/Logica/IteradorArchivos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Back/src/main/java/Logica/Clases/Buscador.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Back/src/main/java/AccesoDatos/AccesoDatos.java" beforeDir="false" afterPath="$PROJECT_DIR$/Back/src/main/java/AccesoDatos/AccesoDatos.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Back/src/main/java/Logica/Buscador.java" beforeDir="false" afterPath="$PROJECT_DIR$/Back/src/main/java/LogicaPruebas/Buscador.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Back/src/main/java/Logica/Buscar.java" beforeDir="false" afterPath="$PROJECT_DIR$/Back/src/main/java/LogicaPruebas/Buscar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Back/src/main/java/Logica/DescargarDoc.java" beforeDir="false" afterPath="$PROJECT_DIR$/Back/src/main/java/LogicaPruebas/DescargarDoc.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Back/src/main/java/Logica/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/Back/src/main/java/LogicaPruebas/HelloApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Back/src/main/java/Logica/Indexacion.java" beforeDir="false" afterPath="$PROJECT_DIR$/Back/src/main/java/LogicaPruebas/Indexacion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Back/src/main/java/Logica/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Back/src/main/java/LogicaPruebas/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Back/src/main/java/Logica/SubirDocumento.java" beforeDir="false" afterPath="$PROJECT_DIR$/Back/src/main/java/LogicaPruebas/SubirDocumento.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Back/target/APIConexionBD-1.0-SNAPSHOT/WEB-INF/classes/AccesoDatos/AccesoDatos.class" beforeDir="false" afterPath="$PROJECT_DIR$/Back/target/APIConexionBD-1.0-SNAPSHOT/WEB-INF/classes/AccesoDatos/AccesoDatos.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Back/target/APIConexionBD-1.0-SNAPSHOT/WEB-INF/classes/Logica/Buscador.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Back/target/APIConexionBD-1.0-SNAPSHOT/WEB-INF/classes/Logica/Buscar.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Back/target/APIConexionBD-1.0-SNAPSHOT/WEB-INF/classes/Logica/DescargarDoc.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Back/target/APIConexionBD-1.0-SNAPSHOT/WEB-INF/classes/Logica/HelloApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Back/target/APIConexionBD-1.0-SNAPSHOT/WEB-INF/classes/Logica/Indexacion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Back/target/APIConexionBD-1.0-SNAPSHOT/WEB-INF/classes/Logica/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Back/target/APIConexionBD-1.0-SNAPSHOT/WEB-INF/classes/Logica/SubirDocumento.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Back/target/classes/AccesoDatos/AccesoDatos.class" beforeDir="false" afterPath="$PROJECT_DIR$/Back/target/classes/AccesoDatos/AccesoDatos.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Back/target/classes/Logica/Buscador.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Back/target/classes/Logica/Buscar.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Back/target/classes/Logica/DescargarDoc.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Back/target/classes/Logica/HelloApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Back/target/classes/Logica/Indexacion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Back/target/classes/Logica/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Back/target/classes/Logica/SubirDocumento.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Back/src/main/java/Logica/EndPoints/Buscar.java" beforeDir="false" afterPath="$PROJECT_DIR$/Back/src/main/java/Logica/EndPoints/Buscar.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,12 +32,14 @@
   <component name="JpbToolWindowState">
     <option name="myId2FirstActivated">
       <map>
+        <entry key="com.haulmont.jpb.jpaInspector" value="true" />
         <entry key="com.haulmont.jpb.jpaPalette" value="true" />
         <entry key="com.haulmont.jpb.jpaStructure" value="true" />
       </map>
     </option>
     <option name="myId2Visible">
       <map>
+        <entry key="com.haulmont.jpb.jpaInspector" value="false" />
         <entry key="com.haulmont.jpb.jpaPalette" value="false" />
         <entry key="com.haulmont.jpb.jpaStructure" value="false" />
       </map>
@@ -93,7 +71,9 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../probandoProyectoAngular2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunManager" selected="GlassFish Server.GlassFish 5.2022.1">
     <configuration name="Indexacion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -101,7 +81,7 @@
       <module name="APIConexionBD" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="LogicaPruebas.*" />
+          <option name="PATTERN" value="Logica.EndPoints.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,7 +94,20 @@
       <module name="APIConexionBD" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="LogicaPruebas.*" />
+          <option name="PATTERN" value="Logica.EndPoints.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ordenarAutomatico" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LogicaPruebas.ordenarAutomatico" />
+      <module name="APIConexionBD" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Logica.EndPoints.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -196,12 +189,14 @@
     <list>
       <item itemvalue="Application.Indexacion" />
       <item itemvalue="Application.Main" />
+      <item itemvalue="Application.ordenarAutomatico" />
       <item itemvalue="GlassFish Server.GlassFish 5.2022.1" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Indexacion" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.ordenarAutomatico" />
+        <item itemvalue="Application.Indexacion" />
       </list>
     </recent_temporary>
   </component>
@@ -221,6 +216,20 @@
       <workItem from="1652388766131" duration="4674000" />
       <workItem from="1652478575030" duration="8207000" />
       <workItem from="1652490088319" duration="387000" />
+      <workItem from="1652545957244" duration="1682000" />
+      <workItem from="1652552115730" duration="1865000" />
+      <workItem from="1652583822561" duration="300000" />
+      <workItem from="1652584444854" duration="69000" />
+      <workItem from="1652629056969" duration="41000" />
+      <workItem from="1652638935162" duration="80000" />
+      <workItem from="1652639030832" duration="456000" />
+      <workItem from="1652646614247" duration="3020000" />
+      <workItem from="1652651102505" duration="25000" />
+      <workItem from="1652805501183" duration="5532000" />
+      <workItem from="1652817749859" duration="3168000" />
+      <workItem from="1652984223770" duration="408000" />
+      <workItem from="1653251293070" duration="536000" />
+      <workItem from="1653435414689" duration="1358000" />
     </task>
     <task id="LOCAL-00001" summary="gitTeOdioDia3">
       <created>1652315883325</created>

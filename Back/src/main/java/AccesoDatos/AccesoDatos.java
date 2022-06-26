@@ -12,7 +12,7 @@ import javax.transaction.Transaction;
 import java.io.Serializable;
 import java.sql.*;
 
-@ApplicationScoped
+@RequestScoped
 public class AccesoDatos {
 
     private Connection con;
